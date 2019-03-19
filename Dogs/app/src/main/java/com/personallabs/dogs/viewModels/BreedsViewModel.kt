@@ -3,7 +3,7 @@ package com.personallabs.dogs.viewModels
 import android.databinding.ObservableArrayList
 import android.databinding.ObservableBoolean
 import android.databinding.ObservableField
-import com.personallabs.dogs.models.Breed
+import com.personallabs.dogs.data.Breed
 
 class BreedsViewModel {
 

@@ -6,7 +6,7 @@
     <data>
         <variable
                 name="breed"
-                type="com.personallabs.dogs.models.Breed" />
+                type="com.personallabs.dogs.data.Breed" />
     </data>
 
     <TextView

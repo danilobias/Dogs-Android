@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.personallabs.dogs.databinding.BreedItemBinding
-import com.personallabs.dogs.models.Breed
+import com.personallabs.dogs.data.Breed
 
 class BreedsAdapter(var items: List<Breed>) : RecyclerView.Adapter<BreedsAdapter.ViewHolder>(), AdapterItemsContract{
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
