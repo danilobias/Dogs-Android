@@ -23,6 +23,11 @@ class BreedsFragment  : Fragment() {
         }
     }
 
+    override fun onStart() {
+        super.onStart()
+        viewModel.load()
+    }
+
     override fun onCreateView(
         @NonNull inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
